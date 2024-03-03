@@ -35,7 +35,7 @@ Display the frame using the imshow().
 ### Register no:212222230112
 
 ## i) Write the frame as JPG file
-``
+```
 import cv2
 obj = cv2.VideoCapture(0)
 while(True):
@@ -45,7 +45,7 @@ while(True):
     if cv2.waitKey(1) == ord('q'):
         break
 obj.release()
-``
+```
 
 
 ## ii) Display the video
