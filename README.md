@@ -47,8 +47,6 @@ while(True):
         break
 obj.release()
 
-```
-
 
 
 ## ii) Display the video
@@ -120,7 +118,7 @@ cv2.destroyAllWindows()
 
 
 
-```
+
 ## Output
 
 ### i) Write the frame as JPG image
