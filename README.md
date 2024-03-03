@@ -33,9 +33,9 @@ Display the frame using the imshow().
 ```Python
 ### Developed By:Prema Latha.S
 ### Register no:212222230112
-
-## i) Write the frame as JPG file
 ```
+## i) Write the frame as JPG file
+
 import cv2
 obj = cv2.VideoCapture(0)
 while(True):
@@ -86,9 +86,6 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
-
-
-
 
 ## iv) Rotate and display the video
 ```
