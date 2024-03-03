@@ -30,11 +30,12 @@ Display the frame using the imshow().
 <br>Divide the frame into halves and assign the smaller frame and Rotate the frame using the cv2.rotate().
 
 ## Program:
-```Python
+
 ### Developed By:Prema Latha.S
 ### Register no:212222230112
-```
+
 ## i) Write the frame as JPG file
+
 
 import cv2
 obj = cv2.VideoCapture(0)
@@ -45,12 +46,14 @@ while(True):
     if cv2.waitKey(1) == ord('q'):
         break
 obj.release()
+
 ```
 
 
 
 ## ii) Display the video
 ```
+
 import cv2
 img = cv2.VideoCapture(0)
 while(True):
@@ -61,6 +64,7 @@ while(True):
         break
 img.release()
 cv2.destroyAllWindows()
+
 ```
 
 
