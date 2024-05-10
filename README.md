@@ -42,7 +42,7 @@ obj = cv2.VideoCapture(0)
 while(True):
     cap,frame = obj.read()
     cv2.imshow('video.jpg',frame)
-    cv2.imwrite("pic.jpg",frame)
+    cv2.imwrite("word.jpg",frame)
     if cv2.waitKey(1) == ord('q'):
         break
 obj.release()
@@ -57,7 +57,7 @@ img = cv2.VideoCapture(0)
 while(True):
     imagee,frame = img.read()
     cv2.imshow('pic',frame)
-    cv2.imwrite("nature.jpg",frame)
+    cv2.imwrite("word.jpg",frame)
     if cv2.waitKey(1) == ord('q'):
         break
 img.release()
@@ -111,39 +111,24 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-
-
-
-
-
-
-
-
 ## Output
 
 ### i) Write the frame as JPG image
 
-
-![image](https://github.com/premalatha-sureshbabu/Image_Acqusition-_using_Web_Camera/assets/120620842/63d3f302-29f3-4e97-901b-7fa340acbfed)
-
+![image](https://github.com/premalatha-sureshbabu/Image_Acqusition-_using_Web_Camera/assets/120620842/a2495984-8e30-49be-baa4-e26e3a084108)
 
 
 ### ii) Display the video
 
-![image](https://github.com/premalatha-sureshbabu/Image_Acqusition-_using_Web_Camera/assets/120620842/25722fb4-ee94-472f-a5d3-e9c57a5f86c7)
-
-
+![image](https://github.com/premalatha-sureshbabu/Image_Acqusition-_using_Web_Camera/assets/120620842/1c56b2bd-242e-4224-8f0b-d234772305fc)
 
 ### iii) Display the video by resizing the window
 
-![image](https://github.com/premalatha-sureshbabu/Image_Acqusition-_using_Web_Camera/assets/120620842/54b00ea5-e9f1-4901-b038-4ac7f1470899)
-
-
-
+![image](https://github.com/premalatha-sureshbabu/Image_Acqusition-_using_Web_Camera/assets/120620842/ad19ce4f-54d5-42ad-b380-3bf4cda99377)
 
 ### iv) Rotate and display the video
 
-![image](https://github.com/premalatha-sureshbabu/Image_Acqusition-_using_Web_Camera/assets/120620842/0b4f7a35-ab82-4231-969e-093f261c5f2f)
+![image](https://github.com/premalatha-sureshbabu/Image_Acqusition-_using_Web_Camera/assets/120620842/b61657cc-3c1d-4f53-ae79-c62f92eaed6e)
 
 ## Result:
 Thus the image is accessed from webcamera and displayed using openCV.
